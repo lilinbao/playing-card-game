@@ -18,6 +18,7 @@
 		4F192E9B1D0B0AFD00B393CF /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F192E9A1D0B0AFD00B393CF /* Deck.m */; };
 		4F192E9F1D0B22FF00B393CF /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F192E9E1D0B22FF00B393CF /* PlayingCardDeck.m */; };
 		4F192EA21D0B3E1300B393CF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F192EA11D0B3E1300B393CF /* CardMatchingGame.m */; };
+		4F3BF25C1D449F1A00377FCD /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BF25B1D449F1A00377FCD /* PlayingCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		4F192E9E1D0B22FF00B393CF /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		4F192EA01D0B3DF600B393CF /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		4F192EA11D0B3E1300B393CF /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		4F3BF25B1D449F1A00377FCD /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
+		4F3BF25D1D449F6200377FCD /* PlayingCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				4F192E931D0AC65200B393CF /* Models */,
 				4F192E821D0AC63A00B393CF /* ViewController.h */,
 				4F192E831D0AC63A00B393CF /* ViewController.m */,
+				4F3BF25B1D449F1A00377FCD /* PlayingCardViewController.m */,
+				4F3BF25D1D449F6200377FCD /* PlayingCardViewController.h */,
 				4F192E851D0AC63A00B393CF /* Main.storyboard */,
 				4F192E881D0AC63A00B393CF /* Assets.xcassets */,
 				4F192E8A1D0AC63A00B393CF /* LaunchScreen.storyboard */,
@@ -184,6 +189,7 @@
 			files = (
 				4F192E841D0AC63A00B393CF /* ViewController.m in Sources */,
 				4F192E811D0AC63A00B393CF /* AppDelegate.m in Sources */,
+				4F3BF25C1D449F1A00377FCD /* PlayingCardViewController.m in Sources */,
 				4F192E7E1D0AC63A00B393CF /* main.m in Sources */,
 				4F192E991D0ACB7000B393CF /* PlayingCard.m in Sources */,
 				4F192EA21D0B3E1300B393CF /* CardMatchingGame.m in Sources */,

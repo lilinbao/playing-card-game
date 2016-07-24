@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface ViewController ()
@@ -34,9 +33,9 @@
     return _deck;
 }
 
--(Deck *)createDeck
+-(Deck *)createDeck//abstract class, needs to be concreate, make sure that this is public(put it to your .h file)
 {
-    return [[PlayingCardDeck alloc] init];
+    return nil;
 }
 - (void) setScore:(int)score
 {
